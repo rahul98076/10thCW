@@ -1,0 +1,29 @@
+public class strFunc
+{
+    public strFunc()
+    {
+        String name="Alice";
+        String greeting = "Hello, " + name;
+        int length = name.length();
+        char firstChar = name.charAt(0);
+        boolean startsWithA = name.startsWith("A");
+        
+        String indexOfh = "Who da hek is alice";
+        int p = indexOfh.indexOf('h');
+        
+        int q = indexOfh.indexOf('k',5);
+        
+        String s = "MALYALAM";
+        int n=s.lastIndexOf("A");
+        
+        System.out.println("Name: "+name);
+        System.out.println("Greeting: "+greeting);
+        System.out.println("Length: "+ length);
+        System.out.println("First Character: "+firstChar);
+        System.out.println("Starts with 'A': "+startsWithA);  
+        
+        System.out.println("Index of H: "+p);
+        System.out.println("Search of k: "+q);
+        System.out.println("Last Index Of A: "+n);
+    }
+}
